@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(111, 118, 221);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(111, 118, 221);
+    color: white;
+}
+.inputform{
+    padding: 50px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ititle{
+    height: 40px;
+    width: 300px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px;
+    
+}
+.idescription{
+    height: 40px;
+    width: 600px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px;
+}
+
+.abtn{
+    padding: 10px;
+    background-color: orchid;
+    color: white;
+   width: 80px;
+}
+.ubtn{
+    padding: 10px;
+    background-color:#14A44D;
+    color: white;
+   width: 80px;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-right: 200px;
+    font-size: 30px;
+    padding: 50px;
+}
+#sfilter{
+    border: solid;
+    background-color: white;
+    height: 30px;
+
+}
+.cards{
+    display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  
+  
+  
+}
+.card{
+    background-color: white;
+    border: 1px solid;
+    width: 400px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    
+    
+}
+h2{
+    background-color: white;
+    padding: 10px;
+}
+.des{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.btn{
+    background-color: white;
+    text-align: end;
+    padding: 10px;
+}
+.ebtn{
+    background-color: green;
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+     border:none;
+}
+.ebtn:hover{
+    border:2px solid #80deea ;
+}
+.delbtn{
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+    border:none;
+}
+.delbtn:hover{
+    border:5px solid #65e8ff;
+}
+.dd{
+    background-color: rgb(202, 192, 177);
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+   
+}
+h1{
+    background-color: rgb(92, 23, 219);
+}
+.card:hover{
+    box-shadow: 5px 5px 5px;
+}
+@media screen and (max-width:1400px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
